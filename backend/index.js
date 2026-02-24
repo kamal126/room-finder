@@ -23,6 +23,8 @@ const __dirname = path.resolve();
 //     credentials: true,
 //   })
 // );
+console.log("JWT_SECRET:", process.env.JWT_SECRET);
+console.log("CORS_ORIGIN:", process.env.CORS_ORIGIN);
 
 app.use(
   cors({
