@@ -1,3 +1,4 @@
+import axios  from "axios"
 import Body from "./components/Body"
 import Header from "./components/Header"
 import LoginPage from "./pages/LoginPage"
@@ -9,6 +10,8 @@ import FullGallery from "./components/FullGallary"
 import MyRooms from "./pages/MyRooms"
 import { Toaster } from "react-hot-toast"
 import Favourites from "./pages/Favourites"
+
+axios.defaults.withCredentials = true;
 
 function App() {
 
